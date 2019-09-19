@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.linux": {
+        "PATH": "/home/xeratec/.platformio/penv/bin:/home/xeratec/.platformio/penv:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/xeratec/.platformio/penv/bin:/home/xeratec/.platformio/penv:/home/xeratec/.gem/ruby/2.5.0/bin:/home/xeratec/.node_modules/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
