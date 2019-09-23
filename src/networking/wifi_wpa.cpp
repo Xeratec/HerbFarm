@@ -1,10 +1,4 @@
-#include <Arduino.h>
-#include <Adafruit_Sensor.h>
-#include <DHT.h>
-#include <DHT_U.h>
-#include <WiFi.h>
-
-#include "config/config_wifi.h"
+#include "wifi_wpa.h"
 
 void setup_wifi() {
   Serial.println(F("---------------Wlan WPA-------------"));

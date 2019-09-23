@@ -10,8 +10,4 @@
 #define ULTRASONICPIN     GPIO_NUM_33
 #define PUMPPIN           GPIO_NUM_23
 
-// MQTT configuration
-//const char* mqtt_server = "maketec.vsos.ethz.ch";
-const char* mqtt_server = "192.33.91.117";
-
 #endif

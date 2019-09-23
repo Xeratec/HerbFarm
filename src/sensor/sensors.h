@@ -1,17 +1,18 @@
-#ifndef SENSOR_H
-#define SENSOR_H
+#ifndef SENSORS_H
+#define SENSORS_H
 
 #include <Arduino.h>
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
 
-class Sensor {
+#include "config/config_parameter.h"
+
+class Sensors {
     public:
         class SensorData;
         // (De-) / Constructor
-        Sensor(uint8_t dht_pin, uint8_t dht_type, uint8_t waterLevel_pin, uint8_t soilMoisture_pin, uint8_t lightIntensity_pin, uint8_t ultraSonic_pin);
-        ~Sensor();
+        Sensors(uint8_t dht_pin, uint8_t dht_type, uint8_t waterLevel_pin, uint8_t soilMoisture_pin, uint8_t lightIntensity_pin, uint8_t ultraSonic_pin);
         void init();
 
         SensorData  getSensorData();
@@ -28,9 +29,9 @@ class Sensor {
 
 };
 
-class Sensor::SensorData {
+class Sensors::SensorData {
     public:
-        std::string to_string();
+        void        printData();
         float_t     temperature(); 
         float_t     humidity();
         float_t     soilMoisture();
