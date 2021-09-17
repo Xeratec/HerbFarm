@@ -4,8 +4,6 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
-#include "config/config_parameter.h"
-#include "config/config_main.h"
 
 extern const char* clientName;
 extern const char* mqtt_server;

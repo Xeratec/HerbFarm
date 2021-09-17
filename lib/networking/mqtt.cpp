@@ -16,16 +16,16 @@ void mqtt_callback(char* topic, byte* message, unsigned int length) {
     }
     Serial.println();
 
-    if (String(topic) == "herb-farm/pump") {
-        if (messageTemp == "timed"){
-            Serial.print("Pumping water for ");
-            Serial.print(PUMP_DURATION);
-            Serial.println(" 5s!");
-            digitalWrite(PUMPPIN, HIGH);
-            delay(PUMP_DURATION); 
-            digitalWrite(PUMPPIN, LOW);
-       }
-    }
+    // if (String(topic) == "herb-farm/pump") {
+    //     if (messageTemp == "timed"){
+    //         Serial.print("Pumping water for ");
+    //         Serial.print(PUMP_DURATION);
+    //         Serial.println(" 5s!");
+    //         digitalWrite(PUMPPIN, HIGH);
+    //         delay(PUMP_DURATION); 
+    //         digitalWrite(PUMPPIN, LOW);
+    //    }
+    // }
 }
 
 void mqttReConnect() {

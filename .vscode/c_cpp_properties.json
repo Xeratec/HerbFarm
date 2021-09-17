@@ -1,16 +1,19 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
 {
     "configurations": [
         {
-            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
-        },
-        {
-            "name": "Linux",
+            "name": "PlatformIO",
             "includePath": [
                 "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/include",
                 "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/src",
-                "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/.pio/libdeps/WPA/DHT sensor library_ID19",
+                "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/lib/networking",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/.pio/libdeps/WPA/PubSubClient_ID89/src",
+                "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/.pio/libdeps/WPA/DHT sensor library_ID19",
                 "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/.pio/libdeps/WPA/Adafruit Unified Sensor_ID31",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
@@ -21,6 +24,7 @@
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/coap",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/console",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/driver",
+                "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/efuse",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-tls",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_adc_cal",
@@ -28,7 +32,10 @@
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_client",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_server",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_https_ota",
+                "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_https_server",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_ringbuf",
+                "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_websocket_client",
+                "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/espcoredump",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ethernet",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/expat",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fatfs",
@@ -60,17 +67,18 @@
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcp_transport",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcpip_adapter",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ulp",
+                "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/unity",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/vfs",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wear_levelling",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wifi_provisioning",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wpa_supplicant",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/xtensa-debug-module",
-                "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32-camera",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-face",
+                "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32-camera",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/variants/doitESP32devkitV1",
-                "/home/xeratec/.platformio/lib/PubSubClient_ID89/src",
+                "/home/xeratec/.platformio/lib/FastLED/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src",
@@ -84,6 +92,7 @@
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
+                "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
@@ -95,6 +104,7 @@
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
+                "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 "/home/xeratec/.platformio/packages/tool-unity",
                 ""
@@ -104,9 +114,10 @@
                 "path": [
                     "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/include",
                     "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/src",
-                    "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/.pio/libdeps/WPA/DHT sensor library_ID19",
+                    "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/lib/networking",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/.pio/libdeps/WPA/PubSubClient_ID89/src",
+                    "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/.pio/libdeps/WPA/DHT sensor library_ID19",
                     "/home/xeratec/Polybox/Temp/2019-08-AB_Herb-Station/B_Code/Herb_Farm/.pio/libdeps/WPA/Adafruit Unified Sensor_ID31",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/config",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/app_trace",
@@ -117,6 +128,7 @@
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/coap",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/console",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/driver",
+                    "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/efuse",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-tls",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_adc_cal",
@@ -124,7 +136,10 @@
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_client",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_http_server",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_https_ota",
+                    "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_https_server",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_ringbuf",
+                    "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp_websocket_client",
+                    "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/espcoredump",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ethernet",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/expat",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fatfs",
@@ -156,17 +171,18 @@
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcp_transport",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/tcpip_adapter",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/ulp",
+                    "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/unity",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/vfs",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wear_levelling",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wifi_provisioning",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/wpa_supplicant",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/xtensa-debug-module",
-                    "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32-camera",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp-face",
+                    "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/esp32-camera",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/tools/sdk/include/fb_gfx",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/cores/esp32",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/variants/doitESP32devkitV1",
-                    "/home/xeratec/.platformio/lib/PubSubClient_ID89/src",
+                    "/home/xeratec/.platformio/lib/FastLED/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/AzureIoT/src",
@@ -180,6 +196,7 @@
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
+                    "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/NetBIOS/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/Preferences/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/SD/src",
@@ -191,13 +208,14 @@
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
+                    "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                     "/home/xeratec/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     "/home/xeratec/.platformio/packages/tool-unity",
                     ""
                 ]
             },
             "defines": [
-                "PLATFORMIO=40003",
+                "PLATFORMIO=50200",
                 "ARDUINO_ESP32_DEV",
                 "USE_WIFI_WPA",
                 "ESP32",
@@ -211,10 +229,13 @@
                 "ARDUINO_BOARD=\"DOIT ESP32 DEVKIT V1\"",
                 ""
             ],
-            "intelliSenseMode": "clang-x64",
             "cStandard": "c99",
             "cppStandard": "c++11",
-            "compilerPath": "\"/home/xeratec/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc\" -mlongcalls"
+            "compilerPath": "/home/xeratec/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc",
+            "compilerArgs": [
+                "-mlongcalls",
+                ""
+            ]
         }
     ],
     "version": 4

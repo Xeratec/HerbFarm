@@ -15,9 +15,9 @@ const char* wlan_pwd  =   "WLAN-4-WOKO";
 
 #ifdef USE_WIFI_EAP
 const char* wlan_ssid = "eduroam";
+#endif
 
 const char* eap_identity = "wiesep@student-net.ethz.ch";
 const char* eap_password = "TeR?86618.-18en";
-#endif
 
 #endif
