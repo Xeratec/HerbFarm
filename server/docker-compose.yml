@@ -1,0 +1,43 @@
+version: '2'
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto
+    container_name: moquitto
+    ports:
+     - "9001:9001"
+     - "1883:1883"
+    restart: always
+    volumes:
+     - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+ 
+  influxdb:
+    image: influxdb:latest
+    container_name: influxdb
+    restart: always
+    environment:
+     - INFLUXDB_USER=xeratec
+     - INFLUXDB_USER_PASSWORD=Sxx59913
+     - INFLUXDB_DB=iot
+    ports:
+     - "8086:8086"
+    volumes:
+     - influxdb-db:/var/lib/influxdb
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    restart: always
+    ports:
+     - "3000:3000"
+    volumes:
+      - grafana-db:/var/lib/grafana
+      - grafana-log:/var/log/grafana
+
+volumes:
+  grafana-db:
+    driver: local
+  grafana-log:
+    driver: local
+  influxdb-db:
+    driver: local
