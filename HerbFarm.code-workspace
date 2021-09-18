@@ -2,6 +2,12 @@
 	"folders": [
 		{
 			"path": "esp32"
+		},
+		{
+			"path": "server"
+		},
+		{
+			"path": "docs"
 		}
 	],
 	"settings": {
